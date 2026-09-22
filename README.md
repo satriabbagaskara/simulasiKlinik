@@ -25,4 +25,4 @@ Repositori ini berisi perancangan skema basis data, skrip manipulasi data (DDL/D
 ## 📊 Dataset
 Dataset yang digunakan dalam simulasi ini berukuran besar dan dapat diunduh melalui tautan berikut:
 * [Unduh Dataset Lengkap via Google Drive](https://drive.google.com/drive/folders/1z6LZgxYwBoWJ_gHY4YcNUzDshMAN2j92?usp=drive_link)
-* Sampel data (10 baris pertama) dapat dilihat pada berkas `sample_patients.csv` di repositori ini.
+
