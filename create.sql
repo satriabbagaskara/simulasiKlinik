@@ -60,3 +60,12 @@ CREATE TABLE medicine_bills (
 	PRIMARY KEY (refr_no),
 	FOREIGN KEY (refr_no) REFERENCES visits (refr_no)
 );
+
+/* format tgl file: (M/D/YYYY) -> format SQL: (YYYY-MM-DD) */
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE patients;
+ALTER TABLE patients MODIFY COLUMN dt_brt VARCHAR(20);
+SET FOREIGN_KEY_CHECKS = 1;
+
+UPDATE patients SET dt_brt = STR_TO_DATE(TRIM(dt_brt), '%m/%d/%Y');
+ALTER TABLE patients MODIFY COLUMN dt_brt DATE NOT NULL;
