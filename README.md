@@ -21,3 +21,8 @@ Repositori ini berisi perancangan skema basis data, skrip manipulasi data (DDL/D
 1. Eksekusi `create.sql` pada lingkungan RDBMS untuk membangun struktur basis data.
 2. Jalankan `Script Loading` untuk memasukkan seluruh data berkas CSV ke dalam tabel.
 3. Buka `Details Report Case Study Data Eng..pdf` untuk membaca dokumentasi teknis secara menyeluruh.
+
+## 📊 Dataset
+Dataset yang digunakan dalam simulasi ini berukuran besar dan dapat diunduh melalui tautan berikut:
+* [Unduh Dataset Lengkap via Google Drive](https://drive.google.com/drive/folders/1z6LZgxYwBoWJ_gHY4YcNUzDshMAN2j92?usp=drive_link)
+* Sampel data (10 baris pertama) dapat dilihat pada berkas `sample_patients.csv` di repositori ini.
